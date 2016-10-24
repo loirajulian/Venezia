@@ -493,7 +493,7 @@ Public Class cCliente
         Dim Sql As String
         Dim lDt As DataTable
         Dim lCnn As MySqlConnection
-
+        ''comentario prueba
         Try
             lCnn = pAdmin.DbCnn.GetInstanceCon
             Sql = "SELECT * FROM cl_clientes where NroCli like '%#pCli#%' or Nombre like '%#pCli#%'"

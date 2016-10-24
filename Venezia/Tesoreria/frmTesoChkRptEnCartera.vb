@@ -31,7 +31,7 @@ Public Class frmTesoChkRptEnCartera
         Dim lPrintSettings As New System.Drawing.Printing.PageSettings
         Dim lRDLC As String
         Dim lNombreRpt As String = ""
-
+        ''comentario prueba
         Try
             lRDLC = "rptTesoLiqChequesCartera.rdlc"
 
